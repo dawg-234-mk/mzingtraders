@@ -24,12 +24,12 @@ cp .env.example .env.production
 Edit `.env.production`:
 
 ```env
-NEXT_PUBLIC_DERIV_APP_ID=your_app_id_here
-# NEXT_PUBLIC_DERIV_REDIRECT_URI=https://your-app.example.com/path/  # optional
-NEXT_PUBLIC_DERIV_APP_NAME=your_app_name_here
+NEXT_PUBLIC_DERIV_APP_ID=pat_c21af0b809d71e25ee6f503142033c302e819090e81f462c2ebaa286a080de72
+# NEXT_PUBLIC_DERIV_REDIRECT_URI=https://mzingtraders.com/path/  # optional
+NEXT_PUBLIC_DERIV_APP_NAME=mzingtraders 
 NEXT_PUBLIC_DERIV_SHOW_APP_NAME=true
-NEXT_PUBLIC_DERIV_REFERRAL_LINK=your_referral_link_here
-NEXT_PUBLIC_DERIV_OAUTH_SCOPES=trade,account_manage
+NEXT_PUBLIC_DERIV_REFERRAL_LINK=https://t.deriv.link?t=RJXP2GNCRPXU
+NEXT_PUBLIC_DERIV_OAUTH_SCOPES=trade,account_manage, application insight
 NEXT_PUBLIC_DERIV_ENV=production
 ```
 
